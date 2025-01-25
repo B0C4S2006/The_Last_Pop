@@ -6,6 +6,7 @@ public class BubbleMovement : MonoBehaviour
 {
     public float moveForce = 5f; // The force applied when moving
     public float dampingFactor = 0.98f; // Adjust this to control how quickly the bubble slows down
+
     private Rigidbody2D rb;
     private Vector2 movement;
     public AudioClip JumpSFX;
