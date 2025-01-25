@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      cocina_0: 44324130981857345
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
