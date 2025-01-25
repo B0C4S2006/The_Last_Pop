@@ -5,6 +5,7 @@ using UnityEngine;
 public class BubbleMovement : MonoBehaviour
 {
     public float moveForce = 5f; // The force applied when moving
+    public float dampingFactor = 0.98f; // Adjust this to control how quickly the bubble slows down
     private Rigidbody2D rb;
     private Vector2 movement;
 
@@ -26,7 +27,15 @@ public class BubbleMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        // Apply force to the Rigidbody2D
-        rb.AddForce(movement * moveForce);
+        if (movement.x != 0 || movement.y != 0)
+        {
+            // Apply force to the Rigidbody2D when there is input
+            rb.AddForce(movement * moveForce);
+        }
+        else
+        {
+            // Gradually reduce force when there is no input
+            rb.velocity = Vector2.Lerp(rb.velocity, Vector2.zero, Time.fixedDeltaTime * dampingFactor);
+        }
     }
 }
