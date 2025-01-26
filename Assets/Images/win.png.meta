@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 99e88c2c3687ab944826db9a6cbfa54c
+guid: fc742584f66b9f84084c2957b1d91d88
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4164400663607307651
-    second: stadia_controller_24dp_5F6368_FILL0_wght400_GRAD0_opsz24_0
+      213: 4846896553144377880
+    second: win_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: stadia_controller_24dp_5F6368_FILL0_wght400_GRAD0_opsz24_0
+      name: win_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 15
-        width: 90
-        height: 66
+        x: 643
+        y: 371
+        width: 507
+        height: 546
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 38de6b0f65ceac930800000000000000
-      internalID: 4164400663607307651
+      spriteID: 8126c313cb2a34340800000000000000
+      internalID: 4846896553144377880
       vertices: []
       indices: 
       edges: []
@@ -130,8 +130,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      stadia_controller_24dp_5F6368_FILL0_wght400_GRAD0_opsz24_0: 4164400663607307651
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

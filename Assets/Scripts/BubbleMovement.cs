@@ -9,7 +9,6 @@ public class BubbleMovement : MonoBehaviour
 
     private Rigidbody2D rb;
     private Vector2 movement;
-    public AudioClip JumpSFX;
     private AudioSource AudioSource;
 
     public GameObject victoryMessage;
@@ -63,6 +62,7 @@ public class BubbleMovement : MonoBehaviour
         {
             // Display the victory message
             victoryMessage.SetActive(true);
+            gameObject.SetActive(false);
         }
     }
 

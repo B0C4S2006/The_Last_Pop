@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tuto-rial_0: -5301886323289823131
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
