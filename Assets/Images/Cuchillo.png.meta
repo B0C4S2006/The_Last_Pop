@@ -103,12 +103,12 @@ TextureImporter:
       name: Cuchillo_0
       rect:
         serializedVersion: 2
-        x: 2956
+        x: 3037
         y: 122
-        width: 369
-        height: 333
+        width: 288
+        height: 266
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -123,7 +123,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e7051e127c641ea428c15a877357f9ff
     internalID: 0
     vertices: []
     indices: 

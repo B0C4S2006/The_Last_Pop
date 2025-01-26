@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AirController : MonoBehaviour
 {
-    public float currentStrength = 5f;
+    public float currentStrength = 10f;
     public Vector2 currentDirection = Vector2.up;
     private AudioSource AudioSource;
 
@@ -15,7 +15,6 @@ public class AirController : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D other)
     {
-        Debug.Log("Entry");
         if (other != null)
         {
             Rigidbody2D rb = other.GetComponent<Rigidbody2D>();

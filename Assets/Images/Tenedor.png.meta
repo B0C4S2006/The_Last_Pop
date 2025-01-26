@@ -103,12 +103,12 @@ TextureImporter:
       name: Tenedor_0
       rect:
         serializedVersion: 2
-        x: 3055
-        y: 202
-        width: 376
-        height: 302
+        x: 3154
+        y: 207
+        width: 265
+        height: 211
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -120,10 +120,31 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Tenedor_1
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 675
+        width: 358
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9b64bd4aeb6d942b35866a6744c311
+      internalID: 1763389425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b8cb8c597a3629949a0038bef2f04c55
     internalID: 0
     vertices: []
     indices: 
@@ -132,6 +153,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Tenedor_0: -1575390818071991430
+      Tenedor_1: 1763389425
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
