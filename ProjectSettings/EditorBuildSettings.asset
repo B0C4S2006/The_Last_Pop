@@ -6,11 +6,16 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/mainMEnu.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/Scenes/tutorial.unity
     guid: 328c577c4e414a84da56659082781bb1
+=======
+    path: Assets/Scenes/instructions.unity
+    guid: 8d035dc3d3333a24eb24e34ce1f1ef6f
+>>>>>>> c6b4af179c85ae3cba98c2b3814b76a5c24c610e
   - enabled: 1
     path: Assets/Scenes/The_Last_Pop.unity
     guid: d5f2878ee9f176047837db15def572bd
