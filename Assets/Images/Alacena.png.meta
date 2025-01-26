@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 21d42d6614d2649dab3daba1092a4c4b
+guid: 39b3c83fbe843407a855294f74ec7235
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8521941128264125525
-    second: Alacena_0
+      213: -8974954993925798144
+    second: Alacena 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Alacena_0
+      name: Alacena 1_0
       rect:
         serializedVersion: 2
         x: 1949
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ba3760de1bbfbb980800000000000000
-      internalID: -8521941128264125525
+      spriteID: 0074feffbfd827380800000000000000
+      internalID: -8974954993925798144
       vertices: []
       indices: 
       edges: []
@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Alacena 1_0: -8974954993925798144
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
