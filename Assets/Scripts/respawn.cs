@@ -6,25 +6,31 @@ public class respawn : MonoBehaviour
 {
     private Vector2 respawnPoint;
     private Rigidbody2D rb;
-    private AudioSource AudioSource;
-    public AudioClip Pop;
+    public GameObject PopBubble;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        AudioSource = GetComponent<AudioSource>();
         respawnPoint = transform.position;
+        PopBubble.SetActive(false);
     }
+
     void OnCollisionEnter2D(Collision2D collision)
     {
+        Vector2 BubblePos = transform.position;
         if (collision.gameObject.CompareTag("PopZone"))
-        {
-            AudioSource.PlayOneShot(Pop);
-            Respawn();
+        { 
+            gameObject.SetActive(false);
+            PopBubble.SetActive(true);
+            PopBubble.transform.position = BubblePos;
+            Invoke("Respawn", 1f);
         }
     }
+
     void Respawn()
     {
+        gameObject.SetActive(true);
         transform.position = respawnPoint;
         rb.velocity = Vector2.zero;
+        PopBubble.SetActive(false);
     }
 }
