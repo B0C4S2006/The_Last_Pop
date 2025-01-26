@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: c4dead81c232fd44f8839a77a4a2f82c
+guid: 7ac026d94c89249a1a80451f9b9b5e57
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7631538279929979220
-    second: 38f926be-2aec-45fa-9030-df65938066c2_0
-  - first:
-      213: -2033029690938393463
-    second: 38f926be-2aec-45fa-9030-df65938066c2_1
+      213: 7873444928579934181
+    second: Cactus_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 38f926be-2aec-45fa-9030-df65938066c2_0
+      name: Cactus_0
       rect:
         serializedVersion: 2
-        x: 551
-        y: 750
-        width: 32
-        height: 103
+        x: 851
+        y: 147
+        width: 1749
+        height: 1883
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -117,29 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cae5af63e54571690800000000000000
-      internalID: -7631538279929979220
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 38f926be-2aec-45fa-9030-df65938066c2_1
-      rect:
-        serializedVersion: 2
-        x: 290
-        y: 268
-        width: 351
-        height: 481
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 98c7bcd744a39c3e0800000000000000
-      internalID: -2033029690938393463
+      spriteID: 5e79b9e7278144d60800000000000000
+      internalID: 7873444928579934181
       vertices: []
       indices: 
       edges: []
@@ -155,8 +131,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      38f926be-2aec-45fa-9030-df65938066c2_0: -7631538279929979220
-      38f926be-2aec-45fa-9030-df65938066c2_1: -2033029690938393463
+      Cactus_0: 7873444928579934181
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -20,9 +20,7 @@ public class BubbleMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         AudioSource = GetComponent<AudioSource>();
         AudioSource.Pause();
-
         victoryMessage.SetActive(false);
-
     }
 
     void Update()
@@ -65,7 +63,6 @@ public class BubbleMovement : MonoBehaviour
         {
             // Display the victory message
             victoryMessage.SetActive(true);
-            Debug.Log("Win");
         }
     }
 
