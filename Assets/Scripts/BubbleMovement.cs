@@ -19,7 +19,7 @@ public class BubbleMovement : MonoBehaviour
         AudioSource = GetComponent<AudioSource>();
         AudioSource.Pause();
 
-        victoryMessage.SetActive(false);
+        //victoryMessage.SetActive(false);
 
 
     }
