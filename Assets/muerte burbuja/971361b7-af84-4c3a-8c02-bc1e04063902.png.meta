@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 89e08c3dbf4b78f46b7c9d45347f7f69
+guid: 9ef22f81f8ceed14c847cc6ff115682c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4668207034633834281
-    second: BUBBLEJOCOsinbc_0
+      213: 5992781363099830305
+    second: 971361b7-af84-4c3a-8c02-bc1e04063902_0
+  - first:
+      213: -8470249294781816416
+    second: 971361b7-af84-4c3a-8c02-bc1e04063902_1
+  - first:
+      213: -804967112762331566
+    second: 971361b7-af84-4c3a-8c02-bc1e04063902_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BUBBLEJOCOsinbc_0
+      name: 971361b7-af84-4c3a-8c02-bc1e04063902_0
       rect:
         serializedVersion: 2
         x: 25
-        y: 8
-        width: 2013
-        height: 1532
+        y: 181
+        width: 96
+        height: 259
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +120,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7d0bbaa6f62373fb0800000000000000
-      internalID: -4668207034633834281
+      spriteID: 128852c06e2aa2350800000000000000
+      internalID: 5992781363099830305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 971361b7-af84-4c3a-8c02-bc1e04063902_1
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 298
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a1e689c421a37a80800000000000000
+      internalID: -8470249294781816416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 971361b7-af84-4c3a-8c02-bc1e04063902_2
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 178
+        width: 108
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25eede30dae24d4f0800000000000000
+      internalID: -804967112762331566
       vertices: []
       indices: 
       edges: []
@@ -130,8 +178,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      BUBBLEJOCOsinbc_0: -4668207034633834281
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

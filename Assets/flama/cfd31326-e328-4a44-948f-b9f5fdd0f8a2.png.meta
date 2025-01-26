@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 89e08c3dbf4b78f46b7c9d45347f7f69
+guid: cc4cc11606297ea46b8428a8d26ad032
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4668207034633834281
-    second: BUBBLEJOCOsinbc_0
+      213: 4165502280743122083
+    second: cfd31326-e328-4a44-948f-b9f5fdd0f8a2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BUBBLEJOCOsinbc_0
+      name: cfd31326-e328-4a44-948f-b9f5fdd0f8a2_0
       rect:
         serializedVersion: 2
-        x: 25
-        y: 8
-        width: 2013
-        height: 1532
+        x: 153
+        y: 94
+        width: 130
+        height: 219
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7d0bbaa6f62373fb0800000000000000
-      internalID: -4668207034633834281
+      spriteID: 3a4f5ca2146dec930800000000000000
+      internalID: 4165502280743122083
       vertices: []
       indices: 
       edges: []
@@ -130,8 +130,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      BUBBLEJOCOsinbc_0: -4668207034633834281
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
