@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f378f50c79e4575408b586e3f85ee4d6
+guid: 9253075dcdb88a344849bc33ca6fa3ff
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5901873956257102890
-    second: toalla_0
+      213: -362203812900478551
+    second: BotonPausa_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: toalla_0
+      name: BotonPausa_0
       rect:
         serializedVersion: 2
-        x: 475
-        y: 271
-        width: 1111
-        height: 715
+        x: 447
+        y: 652
+        width: 2846
+        height: 1791
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,8 +127,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a2c75dff71ba7e150800000000000000
-      internalID: 5901873956257102890
+      spriteID: 9a166cb1d8139faf0800000000000000
+      internalID: -362203812900478551
       vertices: []
       indices: 
       edges: []
