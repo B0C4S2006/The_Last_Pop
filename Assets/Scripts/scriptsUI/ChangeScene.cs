@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
-using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -21,7 +20,7 @@ public class ChangeScene : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.P))
         {
             if (gamePaused)
             {
@@ -40,17 +39,15 @@ public class ChangeScene : MonoBehaviour
     }
     public void Pause()
     {
-        gamePaused = true;
-        Time.timeScale = 0;
-        buttonPause.SetActive(false);
-        menuPause.SetActive(true);
+        gamePaused = !gamePaused;
+        Time.timeScale = gamePaused ? 0f : 1f;
+
     }
     public void Play()
     {
         gamePaused = false;
         Time.timeScale = 1f;
-        buttonPause.SetActive(true);
-        menuPause.SetActive(false);
+
 
     }
     public void Res()

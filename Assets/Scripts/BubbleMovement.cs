@@ -6,6 +6,7 @@ public class BubbleMovement : MonoBehaviour
 {
     public float moveForce = 7f; // The force applied when moving
     public float dampingFactor = 0.98f; // Adjust this to control how quickly the bubble slows down
+    public GameObject victoryMessage;
 
     private Rigidbody2D rb;
     private Vector2 movement;
@@ -17,6 +18,10 @@ public class BubbleMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         AudioSource = GetComponent<AudioSource>();
         AudioSource.Pause();
+
+        victoryMessage.SetActive(false);
+
+
     }
 
     void Update()
@@ -24,7 +29,7 @@ public class BubbleMovement : MonoBehaviour
         // Get input from horizontal and vertical axes (WASD or Arrow keys)
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
-   
+
 
         // Create a movement vector
         movement = new Vector2(moveX, moveY).normalized;
@@ -44,7 +49,7 @@ public class BubbleMovement : MonoBehaviour
         else
         {
             // Gradually reduce force when there is no input
-            rb.velocity = Vector2.Lerp(rb.velocity, Vector2.zero, Time.fixedDeltaTime* dampingFactor);
+            rb.velocity = Vector2.Lerp(rb.velocity, Vector2.zero, Time.fixedDeltaTime * dampingFactor);
 
             // Pause the audio when not moving
             AudioSource.Pause();
