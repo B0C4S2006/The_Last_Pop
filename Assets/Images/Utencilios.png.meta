@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 770e7bf0329674d958235e9e6d79ff98
+guid: f6eaefa28609842208aa1785f207a47e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7587358828458048101
-    second: Extractor 1_0
+      213: 2897290144963906283
+    second: Utencilios_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Extractor 1_0
+      name: Utencilios_0
       rect:
         serializedVersion: 2
-        x: 1291
-        y: 973
-        width: 900
-        height: 734
+        x: 597
+        y: 818
+        width: 1027
+        height: 988
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b958556585944b690800000000000000
-      internalID: -7587358828458048101
+      spriteID: bea40dd490e353820800000000000000
+      internalID: 2897290144963906283
       vertices: []
       indices: 
       edges: []
@@ -130,8 +130,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Extractor 1_0: -7587358828458048101
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
