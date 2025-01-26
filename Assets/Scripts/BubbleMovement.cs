@@ -11,12 +11,18 @@ public class BubbleMovement : MonoBehaviour
     private Vector2 movement;
     public AudioClip JumpSFX;
     private AudioSource AudioSource;
+
+    public GameObject victoryMessage;
+
     void Start()
     {
         // Get the Rigidbody2D component
         rb = GetComponent<Rigidbody2D>();
         AudioSource = GetComponent<AudioSource>();
         AudioSource.Pause();
+
+        victoryMessage.SetActive(false);
+
     }
 
     void Update()
@@ -32,6 +38,7 @@ public class BubbleMovement : MonoBehaviour
 
     void FixedUpdate()
     {
+      
         if (movement.x != 0 || movement.y != 0)
         {
             // Apply force to the Rigidbody2D when there is input
@@ -49,5 +56,17 @@ public class BubbleMovement : MonoBehaviour
             // Pause the audio when not moving
             AudioSource.Pause();
         }
+        
     }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Goal"))
+        {
+            // Display the victory message
+            victoryMessage.SetActive(true);
+            Debug.Log("Win");
+        }
+    }
+
 }

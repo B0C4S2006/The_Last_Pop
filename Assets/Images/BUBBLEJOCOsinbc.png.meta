@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9253075dcdb88a344849bc33ca6fa3ff
+guid: 89e08c3dbf4b78f46b7c9d45347f7f69
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -362203812900478551
-    second: BotonPausa_0
+      213: -4668207034633834281
+    second: BUBBLEJOCOsinbc_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BotonPausa_0
+      name: BUBBLEJOCOsinbc_0
       rect:
         serializedVersion: 2
-        x: 447
-        y: 652
-        width: 2846
-        height: 1791
+        x: 25
+        y: 8
+        width: 2013
+        height: 1532
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9a166cb1d8139faf0800000000000000
-      internalID: -362203812900478551
+      spriteID: 7d0bbaa6f62373fb0800000000000000
+      internalID: -4668207034633834281
       vertices: []
       indices: 
       edges: []
@@ -143,8 +130,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      BotonPausa_0: -362203812900478551
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AirController : MonoBehaviour
 {
-    public float currentStrength = 10f;
+    public float currentStrength = 15f;
     public Vector2 currentDirection = Vector2.up;
     private AudioSource AudioSource;
 
