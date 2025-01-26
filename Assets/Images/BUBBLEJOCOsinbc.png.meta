@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BUBBLEJOCOsinbc_0: -4668207034633834281
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -112,57 +112,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Goal_0
-      rect:
-        serializedVersion: 2
-        x: 1499
-        y: 2058
-        width: 159
-        height: 155
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2f04d11075da400d0800000000000000
-      internalID: -3457448024721243918
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Goal_1
-      rect:
-        serializedVersion: 2
-        x: 2010
-        y: 2021
-        width: 208
-        height: 203
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 27ae27a6f85a020e0800000000000000
-      internalID: -2296653774574130574
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Goal_2
       rect:
         serializedVersion: 2
-        x: 204
-        y: 400
-        width: 2963
-        height: 1582
+        x: 0
+        y: 0
+        width: 3508
+        height: 2480
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -174,59 +132,22 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Goal_3
-      rect:
-        serializedVersion: 2
-        x: 2998
-        y: 1213
-        width: 271
-        height: 241
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: afd5bc9d1a22cdc60800000000000000
-      internalID: 7844182729511624186
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Goal_4
-      rect:
-        serializedVersion: 2
-        x: 731
-        y: 318
-        width: 346
-        height: 174
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9b965a4dd9fe6d390800000000000000
-      internalID: -7793778643961550407
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 61ad6919312be404da76b100026edd5b
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Goal_0: -3457448024721243918
+      Goal_1: -2296653774574130574
+      Goal_2: 1264859357577811474
+      Goal_3: 7844182729511624186
+      Goal_4: -7793778643961550407
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
