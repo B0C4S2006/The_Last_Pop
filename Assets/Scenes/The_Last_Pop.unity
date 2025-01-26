@@ -715,7 +715,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveForce: 10
   dampingFactor: 1.5
-  victoryMessage: {fileID: 0}
   JumpSFX: {fileID: 8300000, guid: 441b409a08953d74b954da5e5a7878c5, type: 3}
   victoryMessage: {fileID: 0}
 --- !u!50 &314086313
@@ -982,7 +981,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1063230644536950957, guid: 6ae6876806efadb4ca0b5f0d628b2aab, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 124.24243
+      value: 124.24219
       objectReference: {fileID: 0}
     - target: {fileID: 1063230644536950957, guid: 6ae6876806efadb4ca0b5f0d628b2aab, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1096,6 +1095,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -88.42676
       objectReference: {fileID: 0}
+    - target: {fileID: 4764703917725917280, guid: 6ae6876806efadb4ca0b5f0d628b2aab, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4764703917725917280, guid: 6ae6876806efadb4ca0b5f0d628b2aab, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 4764703917725917280, guid: 6ae6876806efadb4ca0b5f0d628b2aab, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
+      objectReference: {fileID: 0}
     - target: {fileID: 5069636590496231693, guid: 6ae6876806efadb4ca0b5f0d628b2aab, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1178,7 +1189,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6493546925469422258, guid: 6ae6876806efadb4ca0b5f0d628b2aab, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7197559285286700597, guid: 6ae6876806efadb4ca0b5f0d628b2aab, type: 3}
       propertyPath: m_Name
@@ -1186,7 +1197,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7197559285286700597, guid: 6ae6876806efadb4ca0b5f0d628b2aab, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7773351057358275619, guid: 6ae6876806efadb4ca0b5f0d628b2aab, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
